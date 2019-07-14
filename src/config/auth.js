@@ -1,4 +1,4 @@
 export default {
-  secret: '236d9ef3483e90faaac4606827afabee', // gobarberrocketseatgostack7
+  secret: process.env.APP_SECRET,
   expiresIn: '7d',
 };
